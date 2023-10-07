@@ -25,7 +25,7 @@ class Currency {
 // Alter this class to extend the `Currency` class.
 
 class DetailedCurrency extends Currency {
-  private banknotes;
+  private banknotes: number[];
   // Define a private field named `banknotes`.
   // Set the field type so it can be used to store an array of numbers.
 
