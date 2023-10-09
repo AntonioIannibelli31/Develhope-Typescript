@@ -15,6 +15,8 @@ class Currency {
 
   constructor(name: string, code: string, symbol: string) {
     this.name = name;
+    this.code = code;
+    this.symbol = symbol;
 
     // Store the `code` and `symbol` parameter values in
     // their corresponding class fields.
@@ -26,7 +28,7 @@ class Currency {
   // Add a return type for this method
   // Hint: Look at the inferred return type.
 
-  describe() {
+  public describe(): any {
     // Replace the `null` values below with the appropriate field values.
     // Hint: Access field values with: this.fieldName
 
